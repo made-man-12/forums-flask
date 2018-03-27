@@ -1,0 +1,144 @@
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif; 
+}
+header{
+    background: linear-gradient(to right, #4a569d 1%,#dc2424 100%);
+}
+.header-div-1{
+    background: linear-gradient(to right, #4a569d 1%,#dc2424 100%);border: 0;
+}
+.header-div-1 h1{
+    color: white;
+    font-weight: 300;
+}
+.article-cont-1{
+    z-index: -1;
+    margin-top: -37px;
+    background: white;
+    border-radius: 4px 4px 0 0;
+}
+.article-header-1{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #676767;
+}
+.article-header-1 h4 {
+    margin: 50px 0px;
+    font-weight: 300;
+}
+.article-topbar .large-8 a {
+    background: #4a569d;
+}
+.article-topbar .large-1 button{
+    background: #4a569d;
+    padding: 11px 8px;
+}
+.forumbg{
+    margin: 23px 0px 0px 0px;
+    background-color: #F8F8F8;
+}
+.forumbg-top{
+    background: linear-gradient(to right, #4a569d 1%,#dc2424 100%);
+    color: white;
+    border-radius: 4px 4px 0 0;
+}
+
+.forumbg-top .large-9 p{
+    font-size: 1.1em;
+    line-height: 2.3em;
+    margin-bottom:0
+}
+
+.forumbg-top .large-3 l{
+    font-size: 1.5em;
+    margin: 10px auto;
+    margin-bottom: 0;
+    position: relative;
+    top: 5px;
+}
+.post{
+    border-bottom: solid 1px #ECF0F1;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    margin: 3px;
+}
+.post .large-1 .alert{
+    padding: 6px;
+}
+
+.post .large-8 h6{
+    margin-bottom: 0;
+}
+
+.post .large-8 p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.post .large-8 p a{
+    color: #AA0000;
+    font-weight: 500;
+}
+
+.post .large-3{
+    font-size: 14px;
+}
+.post .large-3 p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.post .large-3 p a{
+    color: #AA0000;
+    font-weight: 500;
+}
+.sidebar_widget{
+    background-color: #F8F8F8;
+}
+.widget-top{
+    background: #343840;
+    color: white;
+    border-radius: 4px 4px 0 0;
+}
+
+.widget-top .large-9 p{
+    font-size: 1.1em;
+    line-height: 2.3em;
+    margin-bottom:0;
+    margin-left: 8px;
+}
+
+.widget-top .large-3 i{
+    font-size: 1.5em;
+    margin: 10px auto;
+    margin-bottom: 0;
+    position: relative;
+    top: 5px;
+}
+
+.widget-content{
+    border-bottom: solid 1px#ECF0F1;
+    background-color: #FFFFFF;
+    margin: 2px;
+}
+
+.widget-content .large-9 p{
+    margin: 10px;
+}
+
+.widget-content .large-3{
+    margin: 10px 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background: #e3e3e3;
+}
+
+form  .submit-form{
+    background-color: #4a569d;
+}
+
+form { 
+    margin: 50px 0;
+}

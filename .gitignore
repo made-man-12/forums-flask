@@ -1,0 +1,12 @@
+#Pyc file
+*.pyc
+
+#zip file
+*.zip
+
+# Virtual environment
+venv
+
+#PyCharm
+.idea
+

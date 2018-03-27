@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <article class="grid-container article-cont-1">
+        <div class="text-left article-header-1">
+                <h4 class="text-left">Latest Topics</h4>
+        <div>
+
+        <div class="grid-x grid-margin-x ">
+            <div class="large-8 cell">
+                <div class="grid-x grid-margin-x article-topbar">
+                    <div class="large-8 cell">
+                        <a href="{{url_for("topic_add")}}" class="button" >
+                            New Topic   <i class="fi-pencil"></i>
+                        </a>
+                    </div>
+                    <div class="large-1 cell">
+                        <button class="button" >Search</button>
+                    </div>
+                    <div class="large-3 cell">
+                        <input type="search" name="search" placeholder="Search.." class="animated-search-form">
+                    </div>
+
+                </div>
+
+                <div class="forumbg announcement">
+                    <div class="grid-x grid-margin-x forumbg-top" >
+                        <div class="large-9 cell">
+                            <p>Topice</p>
+                        </div>
+                        <div class="large-3 cell">
+                            <l class="fi-clock"></l>
+                        </div>
+                    </div>
+
+                    {% for post in posts %}
+                    <div class="grid-x grid-margin-x post">
+                        <div class="large-1 cell">
+                            <a class="button secondary" href="#">Edit</a>
+                            <a class="button alert" href="#">Delete</a>
+                        </div>
+                        <div class="large-8 cell">
+                            <h6><a href="#">'{{ post.title }}</a></h6>
+                            <p>By :<a href="#">Member1</a></p>
+                        </div>
+                        <div class="large-3 cell">
+                            <p>By :<a href="#">Member1</a></p>
+                            <p>Sun Oct 09, 2016 6:59 pm </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+            <!-- Sidebar -->
+            <div class="large-4 cell">
+                <aside class="sidebar_widget">
+                    <div class="grid-x widget-top" >
+                        <div class="large-9 cell">
+                            <p>Top Member</p>
+                        </div>
+                        <div class="large-3 cell">
+                            <i class="fi-results"></i>
+                        </div>
+                    </div>
+                    <div class="grid-x cell widget-content">
+                        <div class="large-9 cell">
+                            <p>Member 1</p>
+                        </div>
+                        <div class="large-3 cell">
+                            <p>4</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-x cell widget-content">
+                        <div class="large-9 cell">
+                            <p>Member 1</p>
+                        </div>
+                        <div class="large-3 cell">
+                            <p>4</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+
+{% endblock content %}
